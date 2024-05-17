@@ -1,0 +1,45 @@
+.discount {
+  display: flex;
+  max-width: 1400px;
+  margin-inline: auto;
+  justify-content: space-between;
+}
+.discount__image-block {
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+}
+.discount__image-block-text {
+  position: absolute;
+  top: 29.76%; /*// top: 109px; */
+  left: 7.91%; /*// left: 54.88px; */
+  max-width: 277px;
+
+  span {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 36rem;
+  }
+  p {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40rem;
+  }
+}
+.discount-text-block1 {
+  span {
+    color: var(--white-color);
+  }
+  p {
+    color: var(--white-color);
+  }
+}
+.discount-text-block2 {
+  span {
+    color: var(--green-color);
+  }
+  p {
+    color: var(--dark-green-color);
+  }
+}
