@@ -1,0 +1,113 @@
+$aboutBgImage: "/about/fruit.png";
+
+.container {
+  .about {
+    background: var(--white-color);
+
+
+    &__container {
+      display: flex;
+      // justify-content: space-between;
+      padding: 100rem;
+      align-items: center;
+      color: var(--dark-green-color);
+      background: var(--white-color);
+      @include desktop-small {
+        flex-direction: column;
+        gap: 24rem;
+        padding: 50rem;
+      }
+
+      @include tablet-small {
+        flex-direction: column;
+        gap: 24rem;
+        padding: 20rem;
+      }
+
+    }
+
+    @include tablet {
+      flex-direction: column;
+      gap: 24rem;
+    }
+
+    &__img {
+      img {
+        width: 100%;
+      }
+    }
+
+    &__box {
+      max-width: 702rem;
+    }
+
+    &__title {
+      font-family: var(--third-family);
+      font-weight: 400;
+      font-size: 36rem;
+      color: var(--green-color);
+    }
+
+    &__desc {
+      display: flex;
+      align-items: center;
+      margin-bottom: 46rem;
+    }
+
+    &__item {
+      display: flex;
+      // align-items: center;
+      gap: 20rem;
+      margin-top: 40rem;
+
+    }
+
+    // &__smalldesc {
+    //   //   display: flex;
+    //   //   align-items: center;
+    //   //   padding-left: 19rem;
+    //   //   flex-direction: row;
+    // }
+
+    &__smalltitle {
+
+      // display: flex;
+      // flex-direction: row;
+      margin-bottom: 7rem;
+      // align-items: center;
+    }
+
+
+
+    &__btn {
+      display: flex;
+      border-radius: 16rem;
+      padding: 28rem 39rem;
+      background: var(--dark-green-color);
+      color: var(--white);
+      align-items: center;
+      gap: 10rem;
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 20rem;
+      border: 0;
+      margin-top: 46rem;
+    }
+  }
+
+  .about__icon {
+    display: flex;
+    background: var(--white);
+    padding: 25rem;
+    border-radius: 20rem;
+    margin-bottom: 30rem;
+  }
+
+  p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18rem;
+    line-height: 165%;
+    color: #525c60;
+  }
+}
