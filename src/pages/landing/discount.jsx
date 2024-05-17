@@ -8,7 +8,7 @@ export const DiscountLanding = () => {
             <img src={DiscountImage1} alt="discount-image"/> 
             <div className="discount__image-block-text discount-text-block1">
               <span>Natural!!</span>
-              <p>Get Garden Fresh Fruits</p>
+              <p>Get Garden <br /> Fresh Fruits</p>
             </div>
           </div>
           <div className="discount__image-block">
