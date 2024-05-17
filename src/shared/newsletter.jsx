@@ -1,3 +1,4 @@
+import Subscribe from "/newsletter/subscribe.svg";
 export const Newsletter = () => {
   return (
     <section className="newsletter">
@@ -9,10 +10,10 @@ export const Newsletter = () => {
           type="email"
           id="email"
           name="email"
-          placeholder="Your Email Address"
-        />
+          placeholder="Your Email Address"/>
         <button className="newsletter-form__btn" type="submit">
-          Subscribe
+          <img className="newsletter-form__icon" src={Subscribe} alt="Subscribe icon"/>
+          <span className="newsletter-form__text">Subscribe</span>
         </button>
       </form>
     </section>
