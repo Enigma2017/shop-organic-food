@@ -2,11 +2,12 @@
   display: flex;
   max-width: 1400px;
   margin-inline: auto;
-  justify-content: space-between;
+  gap: 35px;
+  padding-inline: 20px;
   @media screen and (max-width: 1400px) {
     justify-content: center;
     gap: 35px;
-    padding-inline: 20px;
+    align-items: center;
   }
   @include desktop-small {
     gap: 16px;
@@ -17,72 +18,7 @@
   @include mobile {
     padding-inline: 10px;
   }
-}
-.discount__image-block {
-  position: relative;
-  @include tablet-small {
-    max-width: 500px;
-    margin-inline: auto;
-  }
   img {
     max-width: 100%;
-  }
-}
-.discount__image-block-text {
-  position: absolute;
-  top: 29.76%; /*// top: 109px; */
-  left: 7.91%; /*// left: 54.88px; */
-  max-width: 277px;
-
-  span {
-    font-family: var(--third-family);
-    font-weight: 400;
-    font-size: 36rem;
-    @include desktop-small {
-      font-size: 30rem;
-    }
-    @include tablet {
-      font-size: 20rem;
-    }
-    @include tablet-small {
-      font-size: 25rem;
-    }
-    @include mobile {
-      font-size: 20rem;
-    }
-  }
-  p {
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 40rem;
-    @include desktop-small {
-      font-weight: 600;
-      font-size: 32rem;
-    }
-    @include tablet {
-      font-size: 25rem;
-    }
-    @include tablet-small {
-      font-size: 30rem;
-    }
-    @include mobile {
-      font-size: 25rem;
-    }
-  }
-}
-.discount-text-block1 {
-  span {
-    color: var(--white-color);
-  }
-  p {
-    color: var(--white-color);
-  }
-}
-.discount-text-block2 {
-  span {
-    color: var(--green-color);
-  }
-  p {
-    color: var(--dark-green-color);
   }
 }
