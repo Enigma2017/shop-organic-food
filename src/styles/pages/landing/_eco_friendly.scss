@@ -1,0 +1,46 @@
+.eco-friendly-landing{
+    &__photo{
+        max-width: 952rem;
+        position: relative;
+    }
+    &__container{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 871rem;
+        border-radius: 30rem;
+        background-color: var(--backround-eco-friendly-landing-container-color);
+        padding: 78rem 89rem 42rem 89rem;
+    }
+    &__header{
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 36rem;
+        color: var(--green-color);
+        margin-bottom: 8rem;
+    }
+    &__title{
+        max-width: 437rem;
+        color: var(--dark-green-color);
+        margin-bottom: 35rem;
+    }
+    &__point{
+        margin-bottom: 35rem;
+    }
+    &__link{
+        text-decoration: none;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 25rem;
+        color: var(--dark-green-color);
+        margin-bottom: 7rem;
+        transition: .2s all ease-in-out;
+        &:hover{
+            color: var(--green-color);
+        }
+    }
+    &__desc{
+        max-width: 635rem;
+        color: var(--black-color);
+    }
+}
