@@ -1,0 +1,274 @@
+[
+    {
+        "id": "1",
+        "image": {
+            "src": "../../assets/img/products-items/item1.png",
+            "alt": "item-1"
+        }, 
+        "item": {
+            "type": "Vegetable",
+            "name": "Calabrese Broccoli",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$13"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "2",
+        "image": {
+            "src": "/assets/img/products-items/item2.png",
+            "alt": "item-2"
+        }, 
+        "item": {
+            "type": "Fresh",
+            "name": "Fresh Banana Fruits",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$14"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "3",
+        "image": {
+            "src": "/assets/img/products-items/item3.png",
+            "alt": "item-3"
+        }, 
+        "item": {
+            "type": "Millets",
+            "name": "Health Pistachios",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$15"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "4",
+        "image": {
+            "src": "/assets/img/products-items/item4.png",
+            "alt": "item-4"
+        }, 
+        "item": {
+            "type": "Vegetable",
+            "name": "Vegan Red Tomato",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$17"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "5",
+        "image": {
+            "src": "/assets/img/products-items/item5.png",
+            "alt": "item-5"
+        }, 
+        "item": {
+            "type": "Health",
+            "name": "Mung Bean",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$11"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "6",
+        "image": {
+            "src": "/assets/img/products-items/item6.png",
+            "alt": "item-6"
+        }, 
+        "item": {
+            "type": "Nuts",
+            "name": "Brown Hazelnut",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$12"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "7",
+        "image": {
+            "src": "/assets/img/products-items/item7.png",
+            "alt": "item-7"
+        }, 
+        "item": {
+            "type": "Fresh",
+            "name": "Eggs",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$17"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "8",
+        "image": {
+            "src": "/assets/img/products-items/item8.png",
+            "alt": "item-8"
+        }, 
+        "item": {
+            "type": "Fresh",
+            "name": "Zelco Suji Elaichi Rusk",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$15"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "9",
+        "image": {
+            "src": "/assets/img/products-items/item9.png",
+            "alt": "item-9"
+        }, 
+        "item": {
+            "type": "Health",
+            "name": "Franchi Zucchini",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$11"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "10",
+        "image": {
+            "src": "/assets/img/products-items/item10.png",
+            "alt": "item-10"
+        }, 
+        "item": {
+            "type": "Nuts",
+            "name": "Cashew",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$12"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "11",
+        "image": {
+            "src": "/assets/img/products-items/item11.png",
+            "alt": "item-11"
+        }, 
+        "item": {
+            "type": "Fresh",
+            "name": "Fresh Corn",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$17"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "12",
+        "image": {
+            "src": "/assets/img/products-items/item12.png",
+            "alt": "item-12"
+        }, 
+        "item": {
+            "type": "Fresh",
+            "name": "Organic Almonds",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$15"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "13",
+        "image": {
+            "src": "/assets/img/products-items/item13.png",
+            "alt": "item-13"
+        }, 
+        "item": {
+            "type": "Vegetable",
+            "name": "Green Broccoli",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$11"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "14",
+        "image": {
+            "src": "/assets/img/products-items/item14.png",
+            "alt": "item-14"
+        }, 
+        "item": {
+            "type": "Vegetable",
+            "name": "Zucchini",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$12"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "15",
+        "image": {
+            "src": "/assets/img/products-items/item15.png",
+            "alt": "item-15"
+        }, 
+        "item": {
+            "type": "Vegetable",
+            "name": "Onion",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$17"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    },
+    {
+        "id": "16",
+        "image": {
+            "src": "/assets/img/products-items/item16.png",
+            "alt": "item-16"
+        }, 
+        "item": {
+            "type": "Vegetable",
+            "name": "Cabbage",
+            "rating": "5"
+        },
+        "price": {
+            "fullprice": "$20",
+            "discountprice": "$17"
+        },
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+    }
+]
