@@ -1,7 +1,7 @@
 export const OfferLanding = () => {
     return (
       <div>
-          OfferLanding
+          OfferLandingg
       </div>
     );
   }
