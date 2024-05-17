@@ -11,13 +11,22 @@ export const Footer = () => {
         <div className="footer-contact">
           <h6 className="footer-title footer-contact__title">Contact Us</h6>
           <div className="footer-contact__link">
-            Email <a href="/">needhelp@Organia.com</a>
+            Email
+            <a href="mailto:needhelp@Organia.com" target="_blank">
+              needhelp@Organia.com
+            </a>
           </div>
           <div className="footer-contact__link">
-            Phone <a href="/">666 888 888</a>
+            Phone
+            <a href="tel:666888888" target="_blank">
+              666 888 888
+            </a>
           </div>
           <div className="footer-contact__link">
-            Address <a href="/">88 road, borklyn street, USA</a>
+            Address
+            <a href="/" target="_blank">
+              88 road, borklyn street, USA
+            </a>
           </div>
         </div>
         <div className="footer-info">
