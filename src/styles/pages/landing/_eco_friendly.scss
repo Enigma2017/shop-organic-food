@@ -9,6 +9,8 @@
   
     &__photo {
         width: 100%;
+        max-width: 952rem;
+        max-height: 931rem;
         @include desktop-for-eco_friendly{
             max-width: 850rem;
         }
