@@ -1,0 +1,30 @@
+.offerLanding {
+  padding-top: 200rem;
+  padding-bottom: 200rem;
+  background: var(--dark-green-color);
+}
+
+.offerText {
+  &__title {
+    font-family: var(--third-family);
+    color: var(--green-color);
+    font-weight: 400;
+    font-size: 36rem;
+  }
+
+  &__desc {
+    color: var(--web-white);
+  }
+
+  &__btn {
+  }
+}
+
+.offerCards {
+  &__card {
+  }
+  &__img {
+  }
+  &__price {
+  }
+}
