@@ -104,7 +104,7 @@
             width: 82rem;
             height: 82rem;
             border-radius: 50%;
-            background: var(--white-color);
+            background: var(--white);
 
             @include mobile {
                 width: 62rem;
@@ -132,7 +132,7 @@
             top: 268rem;
             left: 32rem;
             position: absolute;
-            background: var(--white-color);
+            background: var(--white);
             box-shadow: 0 20rem 35rem 0 rgba(167, 167, 167, 0.25);
             border-radius: 31rem 34rem 30rem 30rem;
             @include tablet{

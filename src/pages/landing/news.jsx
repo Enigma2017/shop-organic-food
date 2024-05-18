@@ -1,6 +1,6 @@
 export const NewsLanding = () => {
   return (
-    <section className="news-lending">
+    <div className="news-lending">
       <p className="news-lending__mark">News</p>
       <div className="news-lending__row">
         <h2 className="news-lending__title">
@@ -136,6 +136,6 @@ export const NewsLanding = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
