@@ -1,6 +1,16 @@
 .offerLanding {
   padding: 200rem 260rem 200rem 260rem;
   background: var(--dark-green-color);
+
+  @include desktop-small {
+    padding: 200rem 150rem 200rem 150rem;
+  }
+  @include tablet {
+    padding: 160rem 150rem 160rem 150rem;
+  }
+  @include tablet {
+    padding: 100rem 150rem 100rem 150rem;
+  }
 }
 
 .offerInfo {
@@ -9,6 +19,15 @@
   justify-content: space-between;
 
   padding-bottom: 50rem;
+
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @include mobile {
+    padding-bottom: 25rem;
+  }
 }
 
 .offerText {
@@ -20,12 +39,19 @@
   }
 
   &__desc {
-    color: var(--web-white);
+    color: var(--white);
+
+    @include mobile {
+      font-size: 40rem;
+    }
   }
 }
 
 .offerButton {
   padding-top: 37rem;
+  @include mobile {
+    padding-top: 25rem;
+  }
 
   &__btn {
     display: inline-flex;
@@ -53,21 +79,22 @@
 }
 
 .offerCards {
-     display: flex;
-     gap: 20rem;
-     align-items: center;
-     text-align: center;
-     
-  &__card {
-     border-radius: 30rem;
-     background: var(--white-color);
+  display: flex;
+  gap: 20rem;
+  align-items: center;
+  text-align: center;
+
+  @include tablet-small {
+    flex-wrap: wrap;
   }
 
-  &__img {
+  &__card {
+    border-radius: 30rem;
+    background: var(--white-color);
   }
 
   &__price {
-     border-top: 1rem solid #dedddd; /* временный цвет */
+    border-top: 1rem solid #dedddd; /* временный цвет */
   }
 }
 

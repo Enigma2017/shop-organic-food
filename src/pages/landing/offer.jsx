@@ -1,6 +1,6 @@
 export const OfferLanding = () => {
   return (
-    <div className="offerLanding">
+    <section className="offerLanding">
 
       <div className="offerInfo">
 
@@ -40,6 +40,6 @@ export const OfferLanding = () => {
         </div>
 
       </div>
-    </div>
+    </section>
   );
 }
