@@ -11,15 +11,15 @@ import { TestimonalLanding } from "./testimonal";
 export const Landing = () => {
     return (
     <div className="landing">
-        <AboutUsLanding />
-        <DiscountLanding />
-        <EcoFriendlyLanding />
         <HeroLanding />
-        <NewsLanding />
-        <OfferLanding />
-        <OrganicLanding />
+        <DiscountLanding />
+        <AboutUsLanding />
         <ProductsLanding />
         <TestimonalLanding />
+        <OfferLanding />
+        <EcoFriendlyLanding />
+        <OrganicLanding />
+        <NewsLanding />
     </div>
     );
   }

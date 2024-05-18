@@ -9,7 +9,7 @@ import heroDecorStrawberry from '/hero/hero_decor_strawberry.svg';
 
 export const HeroLanding = () => {
     return (
-      <section className="hero">
+      <div className="hero">
           <div className="hero__container">
             <div className="hero__info">
               <div className="hero__slogan">100% Natural Food</div>
@@ -48,6 +48,6 @@ export const HeroLanding = () => {
               <img src={heroDecorLeaves1} alt="Hero Decor Leaves" />
             </div>
           </div>
-      </section>
+      </div>
     );
   } 
