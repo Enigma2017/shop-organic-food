@@ -21,7 +21,11 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+<<<<<<< HEAD
+    "sass": "^1.77.1",
+=======
     "sass": "^1.77.2",
+>>>>>>> 31848c12e2c42e6b0ffa7ab042c6646720b736fa
     "vite": "^5.2.0"
   }
 }
