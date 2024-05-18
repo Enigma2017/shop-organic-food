@@ -1,0 +1,42 @@
+.organic {
+    margin: 187rem 0;
+
+    @include tablet {
+        margin: 96rem 0;
+    }
+
+    &-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        gap: 42rem;
+        @include mobile{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &-item {
+        background-size: cover;
+        background-position: center;
+        height: 583rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mobile{
+            height: 400px;
+        }
+        &__title {
+            padding: 34rem 83rem;
+            background: var( --white-color);
+            border-radius: 20rem;
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 25rem;
+            color: #274c5b;
+
+            @include tablet {
+                padding: 24rem 58rem;
+                font-size: 20rem;
+            }
+        }
+    }
+}
