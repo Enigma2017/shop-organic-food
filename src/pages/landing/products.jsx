@@ -12,7 +12,7 @@ export const ProductsLanding = () => {
     };
 
     return (
-        <section className='products'>
+        <div className='products'>
           <p className='products__uptitle'>Categories</p>
           <h2>Our Products</h2>
           <div className='products__container'>
@@ -23,6 +23,6 @@ export const ProductsLanding = () => {
           {visibleItems < productData.length && (  
               <button className='products__button' onClick={showMoreItems}>Load more <span><ArrowIcon /></span></button>
             )}
-        </section>
+        </div>
     );
   }

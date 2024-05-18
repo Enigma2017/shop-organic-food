@@ -3,7 +3,7 @@ import Mailbox from "/about/mailbox.svg"
 import Arrow from "/about/arrow.svg"
 export const AboutUsLanding = () => {
   return (
-    <section className="about__container">
+    <div className="about__container">
       <div className="about__img">
         <img src="/about/fruit.png" alt="Photo" />
       </div>
@@ -45,6 +45,6 @@ export const AboutUsLanding = () => {
           Shop Now <img src={Arrow} alt="arrow" />
         </button>
       </div>
-    </section>
+    </div>
   )
 }

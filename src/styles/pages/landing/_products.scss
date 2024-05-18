@@ -85,7 +85,7 @@
         font-family: var(--second-family);
         font-weight: 600;
         padding: 5rem 12rem;
-        color: var(--white-color);
+        color: var(--white);
         font-size: 15rem;
         border-radius: 8rem;
         -webkit-border-radius: 8rem;
@@ -152,7 +152,7 @@
     border: none;
     cursor: pointer;
     padding: 28rem 46rem;
-    color: var(--white-color);
+    color: var(--white);
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 20rem;
@@ -172,11 +172,11 @@
     }
 
     &:hover{
-        background-color: var(--white-color);
+        background-color: var(--white);
         color: var(--dark-green-color);
 
         svg{
-            color: var(--white-color);
+            color: var(--white);
         }
     }
     
