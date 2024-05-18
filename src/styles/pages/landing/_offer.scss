@@ -1,0 +1,76 @@
+.offerLanding {
+  padding: 200rem 260rem 200rem 260rem;
+  background: var(--dark-green-color);
+}
+
+.offerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 50rem;
+}
+
+.offerText {
+  &__title {
+    font-family: var(--third-family);
+    color: var(--green-color);
+    font-weight: 400;
+    font-size: 36rem;
+  }
+
+  &__desc {
+    color: var(--web-white);
+  }
+}
+
+.offerButton {
+  padding-top: 37rem;
+
+  &__btn {
+    display: inline-flex;
+    gap: 10rem;
+    align-items: center;
+
+    border-radius: 16rem;
+    padding: 28rem 39rem;
+    background: var(--yelow-color);
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20rem;
+    color: var(--dark-green-color);
+  }
+
+  &__btnArrow {
+    padding: 5rem 5rem;
+    width: 9rem;
+    height: 8rem;
+    color: var(--web-white);
+    border-radius: 50%;
+    background: var(--dark-green-color);
+  }
+}
+
+.offerCards {
+     display: flex;
+     gap: 20rem;
+     align-items: center;
+     text-align: center;
+     
+  &__card {
+     border-radius: 30rem;
+     background: var(--white-color);
+  }
+
+  &__img {
+  }
+
+  &__price {
+     border-top: 1rem solid #dedddd; /* временный цвет */
+  }
+}
+
+a {
+  text-decoration: none;
+}
