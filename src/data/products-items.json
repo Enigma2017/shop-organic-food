@@ -8,11 +8,11 @@
         "item": {
             "type": "Vegetable",
             "name": "Calabrese Broccoli",
-            "rating": "5"
+            "rating": "3"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$13"
+            "fullprice": "$20.00",
+            "discountprice": "$13.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -25,11 +25,11 @@
         "item": {
             "type": "Fresh",
             "name": "Fresh Banana Fruits",
-            "rating": "5"
+            "rating": "4"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$14"
+            "fullprice": "$20.00",
+            "discountprice": "$14.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -45,8 +45,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$15"
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -62,8 +62,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -76,11 +76,11 @@
         "item": {
             "type": "Health",
             "name": "Mung Bean",
-            "rating": "5"
+            "rating": "4"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$11"
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -96,8 +96,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$12"
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -110,11 +110,11 @@
         "item": {
             "type": "Fresh",
             "name": "Eggs",
-            "rating": "5"
+            "rating": "3"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -130,8 +130,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$15"
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -144,11 +144,11 @@
         "item": {
             "type": "Health",
             "name": "Franchi Zucchini",
-            "rating": "5"
+            "rating": "4"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$11"
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -164,8 +164,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$12"
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -181,8 +181,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -195,11 +195,11 @@
         "item": {
             "type": "Fresh",
             "name": "Organic Almonds",
-            "rating": "5"
+            "rating": "4"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$15"
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -215,8 +215,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$11"
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -232,8 +232,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$12"
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -249,8 +249,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     },
@@ -266,8 +266,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
     }
