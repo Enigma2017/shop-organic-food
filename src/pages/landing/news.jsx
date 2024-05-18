@@ -27,7 +27,7 @@ export const NewsLanding = () => {
         </a>
       </div>
       <div className="news-lending__items">
-        <div className="news-lending__item">
+        <div className="news-lending__item salad">
           <div className="news-lending__item__img">
             <div className="news-lending__item__date">
               <p>25</p>
@@ -81,7 +81,7 @@ export const NewsLanding = () => {
             </a>
           </div>
         </div>
-        <div className="news-lending__item">
+        <div className="news-lending__item tomato">
           <div className="news-lending__item__img">
             <div className="news-lending__item__date">
               <p>25</p>
