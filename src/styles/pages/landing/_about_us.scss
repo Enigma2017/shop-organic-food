@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     align-items: center;
-    background: var(--white);
+    background: var(--low-gray-color);
     padding: 189rem 20rem;
 
     @include desktop-small {
