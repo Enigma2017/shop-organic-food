@@ -6,11 +6,11 @@
     }
 
     &-items {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        display: flex;
         gap: 42rem;
-        @include mobile{
-            grid-template-columns: 1fr;
+        justify-content: space-between;
+        @include desktop-small{
+            flex-direction: column;
         }
     }
 
@@ -18,6 +18,7 @@
         background-size: cover;
         background-position: center;
         height: 583rem;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -26,14 +27,14 @@
         }
         &__title {
             padding: 34rem 83rem;
-            background: var( --white-color);
+            background: var( --white);
             border-radius: 20rem;
             font-family: var(--font-family);
             font-weight: 500;
             font-size: 25rem;
             color: var(--dark-green-color);
 
-            @include tablet {
+            @include mobile {
                 padding: 24rem 58rem;
                 font-size: 20rem;
             }
