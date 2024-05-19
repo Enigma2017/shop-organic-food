@@ -7,15 +7,19 @@ import { useState, useEffect, useRef } from "react";
 export const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
   const [pagesDropdownActive, setPagesDropdownActive] = useState(false);
+  const [pagesDropdownHovered, setPagesDropdownHovered] = useState(false);
   const pagesDropdownRef = useRef(null);
 
   const toggleMenu = () => {
     setMenuActive(!menuActive);
   };
 
-  const togglePagesDropdown = (e) => {
-    e.preventDefault();
+  const togglePagesDropdown = () => {
     setPagesDropdownActive(!pagesDropdownActive);
+  };
+
+  const handlePagesDropdownHover = (isHovered) => {
+    setPagesDropdownHovered(isHovered);
   };
 
   const handleClickOutside = (e) => {
@@ -37,6 +41,11 @@ export const Header = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [pagesDropdownActive]);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    document.getElementById("searchForm").reset();
+  };
 
   return (
     <header className="header">
@@ -61,15 +70,21 @@ export const Header = () => {
             </a>
           </li>
           <li
-            className={`header__li ${pagesDropdownActive ? "active" : ""}`}
-            onClick={togglePagesDropdown}
+            className={`header__li ${pagesDropdownActive || pagesDropdownHovered ? "active" : ""}`}
+            onMouseEnter={() => handlePagesDropdownHover(true)}
+            onMouseLeave={() => handlePagesDropdownHover(false)}
+            onClick={() => {
+              if (!pagesDropdownActive) {
+                togglePagesDropdown();
+              }
+            }}
             ref={pagesDropdownRef}
           >
-            <a className="header__a pages-link" href="#">
-              <span>Pages</span>
-              <img className="arrow-icon" src={Arrow} alt="arrow" />
-            </a>
-            {pagesDropdownActive && (
+            <span className="header__a pages-link">
+              Pages
+              <img className="arrow-icon" src="/header/arrow.svg" alt="arrow" />
+            </span>
+            {(pagesDropdownActive || pagesDropdownHovered) && (
               <ul className="dropdown">
                 <li className="dropdown__li">
                   <a className="dropdown__a" href="/service">
@@ -114,16 +129,30 @@ export const Header = () => {
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              viewBox="0 0 50 50">
+              viewBox="0 0 50 50"
+            >
               <path d="M 40.783203 7.2714844 A 2.0002 2.0002 0 0 0 39.386719 7.8867188 L 25.050781 22.222656 L 10.714844 7.8867188 A 2.0002 2.0002 0 0 0 9.2792969 7.2792969 A 2.0002 2.0002 0 0 0 7.8867188 10.714844 L 22.222656 25.050781 L 7.8867188 39.386719 A 2.0002 2.0002 0 1 0 10.714844 42.214844 L 25.050781 27.878906 L 39.386719 42.214844 A 2.0002 2.0002 0 1 0 42.214844 39.386719 L 27.878906 25.050781 L 42.214844 10.714844 A 2.0002 2.0002 0 0 0 40.783203 7.2714844 z"></path>
             </svg>
           </span>
         </ul>
       </div>
       <div className="header__btn">
-        <a className="header-search" href="/">
-          <img className="header-search__icon" src={Search} alt="Search Icon" />
-        </a>
+        <form
+          id="searchForm"
+          className="header-search"
+          action="#"
+          method="get"
+          onSubmit={handleSubmit}
+        >
+          <input type="text" className="header-search__input" />
+          <button type="submit" className="header-search__btn">
+            <img
+              className="header-search__icon"
+              src={Search}
+              alt="Search Icon"
+            />
+          </button>
+        </form>
         <a href="/" className="header-cart">
           <div className="header-cart__group">
             <img className="header-cart__icon" src={Cart} alt="Cart Icon" />
