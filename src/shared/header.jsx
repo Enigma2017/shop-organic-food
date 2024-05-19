@@ -56,7 +56,7 @@ export const Header = () => {
             </a>
           </li>
           <li className="header__li">
-            <a className="header__a" href="/">
+            <a className="header__a" href="/aboutus">
               About
             </a>
           </li>
@@ -100,17 +100,17 @@ export const Header = () => {
             )}
           </li>
           <li className="header__li">
-            <a className="header__a" href="/">
+            <a className="header__a" href="/shop">
               Shop
             </a>
           </li>
           <li className="header__li">
-            <a className="header__a" href="/">
+            <a className="header__a" href="/projects">
               Projects
             </a>
           </li>
           <li className="header__li">
-            <a className="header__a" href="/">
+            <a className="header__a" href="/news">
               News
             </a>
           </li>

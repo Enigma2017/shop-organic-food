@@ -7,6 +7,7 @@ import { OfferLanding } from "./offer";
 import { OrganicLanding } from "./organic_juice";
 import { ProductsLanding } from "./products";
 import { TestimonalLanding } from "./testimonal";
+import { Newsletter } from "../../shared/newsletter";
 
 export const Landing = () => {
     return (
@@ -20,6 +21,7 @@ export const Landing = () => {
         <EcoFriendlyLanding />
         <OrganicLanding />
         <NewsLanding />
+        <Newsletter />
     </div>
     );
   }
