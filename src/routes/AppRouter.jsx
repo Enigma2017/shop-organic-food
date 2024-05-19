@@ -5,6 +5,7 @@ import { PageNotFound } from "../pages/utility_pages/404";
 import { TeamPage } from "../pages/team/team-main";
 import { Landing } from "../pages/landing/landing-main";
 import { AboutUsPage } from "../pages/about-us/aboutus-main";
+import { ShopPage } from "../pages/shop/shop-main";
 
 export const AppRoutes = () => {
     return (
@@ -13,6 +14,7 @@ export const AppRoutes = () => {
           <Route index={true} path="/" element={<Landing />} />
           <Route index={true} path="/aboutus" element={<AboutUsPage />} />
           <Route index={true} path="/team" element={<TeamPage />} />
+          <Route index={true} path="/shop" element={<ShopPage />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
     </BrowserRouter>
