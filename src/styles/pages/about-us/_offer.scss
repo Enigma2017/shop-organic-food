@@ -34,10 +34,7 @@
   text-align: center;
   justify-content: center;
   gap: 21rem;
-
-  @include desktop-small {
-    flex-wrap: wrap;
-  }
+  flex-wrap: wrap;
 }
 
 .offerAboutCard {
