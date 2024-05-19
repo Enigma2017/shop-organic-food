@@ -72,28 +72,23 @@ export const Header = () => {
             {pagesDropdownActive && (
               <ul className="dropdown">
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/">
-                    Page1
+                  <a className="dropdown__a" href="/service">
+                    Service
                   </a>
                 </li>
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/">
-                    Page2
+                  <a className="dropdown__a" href="/quality">
+                    Quality
                   </a>
                 </li>
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/">
-                    Page3
+                  <a className="dropdown__a" href="/contact">
+                    Team
                   </a>
                 </li>
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/">
-                    Page4
-                  </a>
-                </li>
-                <li className="dropdown__li">
-                  <a className="dropdown__a" href="/">
-                    Page5
+                  <a className="dropdown__a" href="/contact">
+                    Contact
                   </a>
                 </li>
               </ul>
