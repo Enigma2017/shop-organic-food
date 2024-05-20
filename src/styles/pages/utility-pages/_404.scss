@@ -66,9 +66,8 @@
       font-size: 18rem;
     }
 
-    @include tablet {
+    @include tablet-small {
       display: flex;
-      padding: 20rem;
       font-weight: 300;
       font-size: 18rem;
     }

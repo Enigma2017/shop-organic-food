@@ -1,21 +1,19 @@
 .quality {
 
-    // &_standart-page {
-    //     max-width: 1920rem;
-    //     margin-inline: auto;
-    // }
+    &_standart-page {
+        max-width: 1920rem;
+        margin-inline: auto;
+    }
 
     &__img {
         display: flex;
         max-width: 1400rem;
         width: 100%;
         margin-inline: auto;
-        align-items: stretch;
-        justify-content: stretch;
         align-items: center;
         margin: 180rem 34rem 80rem 34rem;
         margin-inline: auto;
-        // margin-bottom: ;
+       
     }
 
     &__title {
@@ -34,7 +32,7 @@
             font-size: 46rem;
         }
 
-        @include desktop-small {
+        @include tablet {
             font-size: 36rem;
         }
 
@@ -55,8 +53,6 @@
             font-size: 14rem;
         }
     }
-
-    // &__container {}
 
     &__item {
         display: flex;
