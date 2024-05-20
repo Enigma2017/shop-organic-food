@@ -2,7 +2,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 190rem 30rem;
-    background-color: var(--gray-background-color);
+    background-color: #f9f8f8;
     @include tablet{
         padding: 130rem 30rem;
     }
@@ -84,7 +84,7 @@
                 border-radius: 49rem;
                 padding: 29rem 91rem 29rem 27rem;
                 max-width: 339rem;
-                background-color: var(--white-ellipse-color);
+                background-color: #ececec;
                 margin-bottom: 12rem;
                 @include desktop-small{
                     margin: auto;
@@ -145,7 +145,7 @@
                     margin-bottom: 15rem; 
                     &-photo{
                         border-radius: 18rem;
-                        background-color: var(--gray-background-color);
+                        background-color: #f9f8f8;
                         padding: 24rem;
                         display: flex;
                         justify-content: center;
@@ -174,7 +174,7 @@
     margin-bottom: 24rem;
 }
 .why-us__contact-point-middle-icon{
-    color: var(--white-ellipse-color);
+    color: #ececec;
 }
 .secured{
     padding: 50rem 25rem 19rem 26rem;
