@@ -11,11 +11,11 @@ export const ContactsContactUs = () => {
     return (
       <div className='contact-title-block'>
         <div className="contact-title-block__image">
-          <img src={ContactTitleBlockImage} alt="" />
+          <img src={ContactTitleBlockImage} alt="fruits" />
         </div>
         <div className="contact-title-block__info">
-          <p>We'd love to talk about how we can work together.</p>
-          <span>Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
+          <p className='contact-title-block__info-title'>We'd love to talk about how we can work together.</p>
+          <span className='contact-title-block__info-desc'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
 been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</span>
           <div className="contact-title-block__info-for_contact">
             <div className="contact-title-block__info-for_contact-block">
