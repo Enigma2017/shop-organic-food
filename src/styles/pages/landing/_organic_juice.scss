@@ -1,6 +1,6 @@
 .organic {
-    margin: 187rem 0;
-
+    padding: 187rem 0;
+    background-color: var(--light-green-color);
     @include tablet {
         margin: 96rem 0;
     }
