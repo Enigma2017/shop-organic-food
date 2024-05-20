@@ -1,274 +1,322 @@
 [
     {
         "id": "1",
-        "image": {
-            "src": "../../assets/img/products-items/item1.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-1.png",
             "alt": "item-1"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item1.png"
+        },  
         "item": {
             "type": "Vegetable",
             "name": "Calabrese Broccoli",
-            "rating": "5"
+            "rating": "3"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$13"
+            "fullprice": "$20.00",
+            "discountprice": "$13.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley." 
     },
     {
         "id": "2",
-        "image": {
-            "src": "/assets/img/products-items/item2.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-2.png",
             "alt": "item-2"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item2.png"
+        },  
         "item": {
             "type": "Fresh",
             "name": "Fresh Banana Fruits",
-            "rating": "5"
+            "rating": "4"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$14"
+            "fullprice": "$20.00",
+            "discountprice": "$14.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."  
     },
     {
         "id": "3",
-        "image": {
-            "src": "/assets/img/products-items/item3.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-3.png",
             "alt": "item-3"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item3.png"
+        },  
         "item": {
             "type": "Millets",
             "name": "Health Pistachios",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$15"
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."  
     },
     {
         "id": "4",
-        "image": {
-            "src": "/assets/img/products-items/item4.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-4.png",
             "alt": "item-4"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item4.png"
+        },  
         "item": {
             "type": "Vegetable",
             "name": "Vegan Red Tomato",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."  
     },
     {
         "id": "5",
-        "image": {
-            "src": "/assets/img/products-items/item5.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-5.png",
             "alt": "item-5"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item5.png"
+        },  
         "item": {
             "type": "Health",
             "name": "Mung Bean",
-            "rating": "5"
+            "rating": "4"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$11"
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley." 
     },
     {
         "id": "6",
-        "image": {
-            "src": "/assets/img/products-items/item6.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-6.png",
             "alt": "item-6"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item6.png"
+        },  
         "item": {
             "type": "Nuts",
             "name": "Brown Hazelnut",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$12"
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley." 
     },
     {
         "id": "7",
-        "image": {
-            "src": "/assets/img/products-items/item7.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-7.png",
             "alt": "item-7"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item7.png"
+        },   
         "item": {
             "type": "Fresh",
             "name": "Eggs",
-            "rating": "5"
+            "rating": "3"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."  
     },
     {
         "id": "8",
-        "image": {
-            "src": "/assets/img/products-items/item8.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-8.png",
             "alt": "item-8"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item8.png"
+        },   
         "item": {
             "type": "Fresh",
             "name": "Zelco Suji Elaichi Rusk",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$15"
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
     },
     {
         "id": "9",
-        "image": {
-            "src": "/assets/img/products-items/item9.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-9.png",
             "alt": "item-9"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item9.png"
+        },  
         "item": {
             "type": "Health",
             "name": "Franchi Zucchini",
-            "rating": "5"
+            "rating": "4"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$11"
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
     },
     {
         "id": "10",
-        "image": {
-            "src": "/assets/img/products-items/item10.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-10.png",
             "alt": "item-10"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item10.png"
+        },  
         "item": {
             "type": "Nuts",
             "name": "Cashew",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$12"
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley." 
     },
     {
         "id": "11",
-        "image": {
-            "src": "/assets/img/products-items/item11.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-11.png",
             "alt": "item-11"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item11.png"
+        },   
         "item": {
             "type": "Fresh",
             "name": "Fresh Corn",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
     },
     {
         "id": "12",
-        "image": {
-            "src": "/assets/img/products-items/item12.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-12.png",
             "alt": "item-12"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item12.png"
+        },  
         "item": {
             "type": "Fresh",
             "name": "Organic Almonds",
-            "rating": "5"
+            "rating": "4"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$15"
+            "fullprice": "$20.00",
+            "discountprice": "$15.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
     },
     {
         "id": "13",
-        "image": {
-            "src": "/assets/img/products-items/item13.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-13.png",
             "alt": "item-13"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item13.png"
+        },  
         "item": {
             "type": "Vegetable",
             "name": "Green Broccoli",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$11"
+            "fullprice": "$20.00",
+            "discountprice": "$11.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
     },
     {
         "id": "14",
-        "image": {
-            "src": "/assets/img/products-items/item14.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-14.png",
             "alt": "item-14"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item14.png"
+        },  
         "item": {
             "type": "Vegetable",
             "name": "Zucchini",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$12"
+            "fullprice": "$20.00",
+            "discountprice": "$12.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley." 
     },
     {
         "id": "15",
-        "image": {
-            "src": "/assets/img/products-items/item15.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-15.png",
             "alt": "item-15"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item15.png"
+        },  
         "item": {
             "type": "Vegetable",
             "name": "Onion",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
     },
     {
         "id": "16",
-        "image": {
-            "src": "/assets/img/products-items/item16.png",
+        "image-card": {
+            "src": "../../assets/img/products-items/item-16.png",
             "alt": "item-16"
-        }, 
+        },
+        "image": {
+            "src": "../../assets/img/products-items/item16.png"
+        },  
         "item": {
             "type": "Vegetable",
             "name": "Cabbage",
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20",
-            "discountprice": "$17"
+            "fullprice": "$20.00",
+            "discountprice": "$17.00"
         },
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
+        "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
     }
 ]
