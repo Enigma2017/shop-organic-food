@@ -96,7 +96,7 @@
   align-items: center;
   justify-content: center;
 
-  @include tablet {
+  @include desktop-small {
     flex-wrap: wrap;
   }
 

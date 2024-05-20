@@ -1,24 +1,27 @@
 import Plant from "/about/plant.svg"
 import Tractor from "/about/tractor.svg"
 import Arrow from "/about/arrow.svg"
+import Plate from "/about/Plate.png"
 export const AboutUsAboutUs = () => {
   return (
     <div className="about_us__container">
       <div className="about_us__img">
-        <img src="/about/vegetable.png" alt="Photo" />
+        <img src={Plate} alt="Vegetable Plate" />
       </div>
       <div className="about_us__box">
         <div className="about_us__title">About Us</div>
-        <h2 className="about_us__desc">We do Creative <br /> Things for Success</h2>
+        <h2 className="about_us__desc">
+          We do Creative <br /> Things for Success
+        </h2>
         <p className="about_us__paragraph">
           Simply dummy text of the printing and typesetting industry. Lorem had
           ceased to been the industry&#39;s standard dummy text ever since the
-          1500s, when an unknown printer took a galley. 
+          1500s, when an unknown printer took a galley.
         </p>
         <p className="about_us__paragraph">
           Simply dummy text of the printing and typesetting industry. Lorem had
           ceased to been the industry&#39;s standard dummy text ever since the
-          1500s, when an unknown printer took a galley. 
+          1500s, when an unknown printer took a galley.
         </p>
 
         <div className="about_us__item">
@@ -40,9 +43,9 @@ export const AboutUsAboutUs = () => {
             </h6>
           </div>
         </div>
-        <button className="about_us__btn" type="submit">
+        <a href="/Shop" className="about_us__btn" type="submit">
           Explore More <img src={Arrow} alt="arrow" />
-        </button>
+        </a>
       </div>
     </div>
   )

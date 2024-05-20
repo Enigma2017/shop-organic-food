@@ -1,0 +1,139 @@
+$notfoundBgImage: "/404/Photo.png";
+
+.notfound {
+  padding: 105rem 71rem;
+  max-width: 1920rem;
+  margin-inline: auto;
+  background-image: url("#{$notfoundBgImage}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // position: relative;
+  // z-index: 2;
+
+
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 214rem 260rem 214rem 1127rem;
+
+    @include desktop-small {
+      display: flex;
+      padding: 20rem;
+      // flex-direction: column;
+      margin: 106rem 130rem 107rem 550rem;
+    }
+            @include tablet-small {
+              display: flex;
+              padding: 20rem;
+              // flex-direction: column;
+              margin: 20rem;
+            }
+
+  }
+
+  // &__info {}
+
+  &__slogan {width: 100%;
+    // svg {
+    //   // width: 100%;
+    // }
+
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 70rem;
+    color: var(--dark-green-color);
+  }
+
+  &__desc {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 18rem;
+    line-height: 165%;
+    color: var(--black-color);
+  }
+
+  &__a {
+    margin-top: 30rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20rem;
+    color: var(--white);
+    border-radius: 16rem;
+    padding: 28rem 49rem;
+    max-width: 275rem;
+    background: var(--dark-green-color);
+  }
+
+  // &__patterns,
+  // &__patterns1,
+  // &__patterns2,
+  // &__patterns3 {
+  //   position: absolute;
+  //   z-index: 3;
+  // }
+
+  // &__patterns {
+  //   top: 70%;
+  //   left: 0%;
+
+  //   @include tablet {
+  //     top: 0;
+  //     left: 0;
+
+  //     img {
+  //       width: 200rem;
+  //       height: auto;
+  //     }
+  //   }
+  // }
+
+  // &__patterns1 {
+  //   top: 32%;
+  //   left: 38%;
+
+  //   @include tablet {
+  //     top: 0;
+  //     left: 0;
+
+  //     img {
+  //       width: 200rem;
+  //       height: auto;
+  //     }
+  //   }
+  // }
+
+  // &__patterns2 {
+  //   top: 15%;
+  //   left: 0%;
+
+  //   @include tablet {
+  //     top: 0;
+  //     left: 0;
+
+  //     img {
+  //       width: 200rem;
+  //       height: auto;
+  //     }
+  //   }
+  // }
+
+  // &__patterns3 {
+  //   top: 10%;
+  //   left: 20%;
+
+  //   @include tablet {
+  //     top: 0;
+  //     left: 0;
+
+  //     img {
+  //       width: 200rem;
+  //       height: auto;
+  //     }
+  //   }
+  // }
+}

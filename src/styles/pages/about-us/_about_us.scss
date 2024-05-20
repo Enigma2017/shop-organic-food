@@ -78,16 +78,14 @@
     display: inline-flex;
     align-items: center;
     margin-bottom: 58rem;
-      @include mobile {
+
+    @include mobile {
       flex-direction: column;
 
     }
   }
 
   &__icon {
-    // border-radius: 20rem;
-    // padding: 27rem;
-    // background: var(--white);
     margin-right: 15rem;
 
     @include mobile {
@@ -112,6 +110,7 @@
 
   &__btn {
     display: flex;
+    justify-content: center;
     gap: 10rem;
     border-radius: 16rem;
     padding: 28rem 39rem;
@@ -121,14 +120,16 @@
     font-size: 20rem;
     border: 0;
     margin-top: 46rem;
+    max-width: 226rem;
   }
 
-     &__paragraph {
+  &__paragraph {
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 18rem;
     line-height: 165%;
-    color: var(--black-color);margin-bottom: 45rem;
+    color: var(--black-color);
+    margin-bottom: 45rem;
 
     @include desktop-small {
       font-size: 14rem;
