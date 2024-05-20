@@ -10,7 +10,7 @@ import { AppRoutes } from './routes/AppRouter'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
+     <Header />
       <AppRoutes />
     <Footer />
   </React.StrictMode>,
