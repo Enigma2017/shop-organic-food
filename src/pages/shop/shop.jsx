@@ -1,8 +1,17 @@
+import { ProductCard } from "../../shared/product-card";
+import productData from '../../data/products-items.json';
+
 export const ShopShop = () => {
+  const productList = productData;
+
     return (
-      <div>
-            i am shop page
-      </div>
+      <section className="shop">
+          <div className="shop__container">
+            {productList.map((item, index) => (
+                <ProductCard key={item.id || index} item={item} />
+            ))}
+          </div>
+      </section>
     )
   }
   
