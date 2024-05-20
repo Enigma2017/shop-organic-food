@@ -1,4 +1,5 @@
 import { Star } from "../../../public/assets/img/testimonial/Star";
+import Reviewer from "/reviewer.png"
 import BG from "/testimonial_bg.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -7,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 export const TestimonialLanding = () => {
   const reviews = [
     {
-      photo: "/public/assets/img/testimonial/reviewer.png",
+      photo: Reviewer,
       name: "Sara Taylor",
       occupation: "Consumer",
       desc: "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
