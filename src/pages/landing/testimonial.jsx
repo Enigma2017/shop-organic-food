@@ -1,26 +1,43 @@
 import { Star } from "../../../public/assets/img/testimonial/Star";
-// import 'owl.carousel/dist/assets/owl.carousel.css';
-// import 'owl.carousel/dist/assets/owl.theme.default.css';
+import Reviewer from "/reviewer.png"
+import BG from "/testimonial_bg.png";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const TestimonialLanding = () => {
   const reviews = [
     {
-      photo: "/public/assets/img/testimonial/reviewer.png",
+      photo: Reviewer,
       name: "Sara Taylor",
       occupation: "Consumer",
       desc: "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
     },
   ];
 
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  const sectionBG = {
+    backgroundImage: `url(${BG})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  };
+
   return (
-    <section className="testimonial">
+    <section className="testimonial" style={sectionBG}>
       <p className="testimonial__pretitle">Testimonial</p>
       <h2 className="testimonial__title">What Our Customers Are Saying?</h2>
 
-      <div className="owl-carousel owl-theme">
-        <div className="reviewer">
+      <Slider {...settings}>
+        <div className="testimonial__review">
           {reviews.map((review, index) => (
-            <div key={index}>
+            <div key={index} className="reviewer">
               <img src={review.photo} alt="" className="reviewer__img" />
               <div className="reviewer__rating">
                 <Star />
@@ -35,10 +52,9 @@ export const TestimonialLanding = () => {
             </div>
           ))}
         </div>
-      </div>
+      </Slider>
 
       <div className="testimonial__separator"></div>
-
       <div className="testimonial__group">
         <div className="circle-container">
           <div className="outer-circle">
