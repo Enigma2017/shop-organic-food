@@ -12,6 +12,9 @@
     "socials": {
       "facebook": "#",
       "twitter": "#"
+    },
+    "variables":{
+        "instagram": "false"
     }
   },
   {
@@ -28,6 +31,9 @@
       "instagram": "#",
       "facebook": "#",
       "twitter": "#"
+    },
+    "variables":{
+        "instagram": "true"
     }
   },
   {
@@ -44,6 +50,9 @@
       "instagram": "#",
       "facebook": "#",
       "twitter": "#"
+    },
+    "variables":{
+        "instagram": "true"
     }
   },
   {
@@ -59,6 +68,9 @@
     "socials": {
       "facebook": "#",
       "twitter": "#"
+    },
+    "variables":{
+        "instagram": "false"
     }
   },
   {
@@ -75,6 +87,9 @@
       "instagram": "#",
       "facebook": "#",
       "twitter": "#"
+    },
+    "variables":{
+        "instagram": "true"
     }
   },
   {
@@ -91,6 +106,9 @@
       "instagram": "#",
       "facebook": "#",
       "twitter": "#"
+    },
+    "variables":{
+        "instagram": "true"
     }
   }
 ]
