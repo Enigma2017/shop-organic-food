@@ -1,7 +1,9 @@
+import EcoFriendlyLandingImage from '/public/eco-friendly-landing-photo.jpg';
+
 export const EcoFriendlyLanding = () => {
     return (
       <div className="eco-friendly-landing">
-          <img className="eco-friendly-landing__photo" src="/public/eco-friendly-landing-photo.jpg" alt="eco-friendly-landing-photo" />
+          <img className="eco-friendly-landing__photo" src={EcoFriendlyLandingImage} alt="eco-friendly-landing-photo" />
           <div className="eco-friendly-landing__container">
             <div className="eco-friendly-landing__header">Eco Friendly</div>
             <h2 className="eco-friendly-landing__title">Econis is a Friendly Organic Store</h2>

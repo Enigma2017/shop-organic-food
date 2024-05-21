@@ -97,7 +97,7 @@ export const Header = () => {
                   </a>
                 </li>
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/contact">
+                  <a className="dropdown__a" href="/team">
                     Team
                   </a>
                 </li>

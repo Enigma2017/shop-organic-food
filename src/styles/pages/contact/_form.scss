@@ -1,0 +1,160 @@
+.contact__form {
+  padding: 80rem 0rem 120rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include mobile {
+    padding-bottom: 80rem;
+  }
+}
+
+.form {
+  @include mobile {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+  &__group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 46rem;
+    grid-row-gap: 50rem;
+    margin-bottom: 50rem;
+    align-items: center;
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      grid-column-gap: 26rem;
+      grid-row-gap: 30rem;
+      margin-bottom: 30rem;
+    }
+  }
+  &__send {
+    display: flex;
+    align-items: baseline;
+    gap: 50rem;
+
+    @include mobile {
+      flex-direction: column;
+      gap: 15rem;
+    }
+  }
+  &__button {
+    margin-top: 60rem;
+    background-color: var(--dark-green-color);
+    border-radius: 16rem;
+    padding: 29rem 47rem;
+    border: none;
+    outline: none;
+
+    box-sizing: border-box;
+    color: var(--white);
+    cursor: pointer;
+    display: inline-block;
+
+    text-decoration: none;
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20rem;
+    color: var(--white);
+    transition: 0.2s all ease-in-out;
+
+    @include tablet {
+      padding: 19rem 37rem;
+    }
+    @include mobile {
+      margin-top: 30rem;
+    }
+  }
+
+  &__button:hover {
+    transform: scale(1.1);
+    background-color: var(--dark-green-color-second);
+  }
+}
+
+.field {
+  display: block;
+  &__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18rem;
+    color: var(--dark-green-color);
+    margin-bottom: 26rem;
+
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  &__input {
+    border: 1rem solid var(--green-color);
+    border-radius: 16rem;
+    width: 569rem;
+    padding: 28rem 31rem;
+    outline: none;
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18rem;
+    color: var(--dark-green-color);
+
+    @include desktop-for-eco_friendly {
+      width: 449rem;
+    }
+
+    @include desktop-small {
+      width: 300rem;
+    }
+
+    @include tablet {
+      width: 240rem;
+    }
+
+    @include tablet-small {
+      width: 160rem;
+    }
+
+    @include mobile {
+      width: 230rem;
+    }
+  }
+
+  &__input::placeholder {
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18rem;
+    color: var(--placeholder);
+  }
+
+  &__textarea {
+    width: 95%;
+    height: 247rem;
+    resize: none;
+    @include desktop-for-eco_friendly {
+      width: 94%;
+    }
+    @include desktop-small {
+      width: 92%;
+    }
+    @include tablet {
+      width: 91%;
+    }
+    @include tablet-small {
+      width: 87%;
+    }
+
+    @include mobile {
+      width: 78%;
+    }
+  }
+}
+
+.error {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18rem;
+  color: var(--error);
+}
