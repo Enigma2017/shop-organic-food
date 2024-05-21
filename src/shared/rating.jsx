@@ -16,9 +16,9 @@ export const RatingStar = ({length, count}) => {
         array.map((item, index) => {
             const className = item ? 'active-star' : 'rating-star';
             return(
-                <>
-                    <StarIcon key={`${item}-${index}`} className = {className} />
-                </>
+                <span key={index}>
+                    <StarIcon className = {className} />
+                </span>
             )
         })
     )
