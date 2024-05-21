@@ -17,6 +17,7 @@ $mobile: 576px;
     --green-color-second: #68a47f;
     --gray-color: #d4d4d4;
     --gray-color-second: #f1eff0;
+    --gray-color-third: #f9f8f8;
     --white: #fff;
     --light-green-color: #eff6f1;
     --dark-green-color: #274c5b;
@@ -29,7 +30,10 @@ $mobile: 576px;
     --border: 1px solid #d4d4d4;
     --light-white: #f1f1f1;
     --separator: #e0e0e0;
-    --hover-green-color:#eff6f1;
+    //--gray-background-color: #f9f8f8;
+    //--white-ellipse-color: #ececec;
+    --placeholder: #ababab;
+    --error: #ff0000;
 }
 
 h1 {
