@@ -1,9 +1,9 @@
 import { Newsletter } from "../../shared/newsletter"
 import { CommonBanner } from "../../shared/banner"
 import QualityBanner from "/banners/quality-bg.jpg"
-  import Photo from "/public/quality/photo.png"
-  import Seedlings from "/public/quality/seedlings.png"
-  import Pots from "/public/quality/pots.png"
+import Photo from "/public/quality/Photo.png"
+import Seedlings from "/public/quality/seedlings.png"
+import Pots from "/public/quality/pots.png"
 
 export const QualityStandartPage = () => {
     return (
