@@ -13,14 +13,29 @@ export const TestimonialLanding = () => {
       occupation: "Consumer",
       desc: "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
     },
+
+    {
+      photo: Reviewer,
+      name: "Hannah Lake",
+      occupation: "Consumer",
+      desc: "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    },
+
+    {
+      photo: Reviewer,
+      name: "Nellie Lynch",
+      occupation: "Consumer",
+      desc: "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    },
   ];
 
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    adaptiveHeight: true,
   };
 
   const sectionBG = {
@@ -34,25 +49,27 @@ export const TestimonialLanding = () => {
       <p className="testimonial__pretitle">Testimonial</p>
       <h2 className="testimonial__title">What Our Customers Are Saying?</h2>
 
-      <Slider {...settings}>
-        <div className="testimonial__review">
+      <div className="testimonial__slider-container">
+        <Slider {...settings}>
           {reviews.map((review, index) => (
-            <div key={index} className="reviewer">
-              <img src={review.photo} alt="" className="reviewer__img" />
-              <div className="reviewer__rating">
-                <Star />
-                <Star />
-                <Star />
-                <Star />
-                <Star />
+            <div key={index} className="testimonial__review">
+              <div className="reviewer">
+                <img src={review.photo} alt={review.name} className="reviewer__img" />
+                <div className="reviewer__rating">
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </div>
+                <p className="reviewer__desc">{review.desc}</p>
+                <h3 className="reviewer__name">{review.name}</h3>
+                <p className="reviewer__occupation">{review.occupation}</p>
               </div>
-              <p className="reviewer__desc">{review.desc}</p>
-              <h3 className="reviewer__name">{review.name}</h3>
-              <p className="reviewer__occupation">{review.occupation}</p>
             </div>
           ))}
-        </div>
-      </Slider>
+        </Slider>
+      </div>
 
       <div className="testimonial__separator"></div>
       <div className="testimonial__group">
