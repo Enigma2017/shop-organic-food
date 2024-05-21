@@ -54,9 +54,11 @@
   }
 
   &__title {
+    font-family: var(--font-family);
     font-weight: 800;
     font-size: 70rem;
     color: var(--dark-green-color);
+
   }
 
   @include mobile {
