@@ -5,9 +5,9 @@ export const ShopItemAdditional = () => {
   const productList = productData.slice(0, 4);
 
     return (
-      <section className="shop">
+      <section className="shop__item-additional">
         <h2>Related Products</h2>
-          <div className="shop__container">
+          <div className="shop__item-proposition">
             {productList.map((item, index) => (
                 <ProductCard key={item.id || index} item={item} />
             ))}

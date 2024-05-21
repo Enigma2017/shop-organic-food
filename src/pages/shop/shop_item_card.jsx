@@ -22,11 +22,13 @@ export const ShopItemCard = () => {
     const toggleContent = () => {
         if (activeContent === 'info.info') {
             return <div className='shop__item_desc-info'>
-                        <p className='shop__item_desc-title'>{product.item.name}</p>
                         <p className='shop__item_desc-text'>{product.info.info}</p>
                     </div>;
         } else if (activeContent === addInfo) {
-            return <p className='shop__item_add-info'>{addInfo}</p>;
+            return <div className='shop__item-add'>
+                    <p className='shop__item_desc-title'>{product.item.name}</p>
+                    <p className='shop__item_add-info'>{addInfo}</p>
+                 </div>;
         }
     };
 
@@ -59,8 +61,18 @@ export const ShopItemCard = () => {
             </div>
             <div className='shop__item-info'>
                 <div>
-                    <button className='shop__item_info-btn1' onClick={describeInfo}>Product Description</button>
-                    <button className='shop__item_info-btn2' onClick={additionalInfo}>Additional Info</button>
+                    <button
+                        className={`shop__item_info-btn1 ${activeContent === 'info.info' ? 'active' : ''}`}
+                        onClick={describeInfo}
+                    >
+                        Product Description
+                    </button>
+                    <button 
+                        className={`shop__item_info-btn2 ${activeContent === addInfo ? 'active' : ''}`}
+                        onClick={additionalInfo}
+                    >
+                        Additional Info
+                    </button>
                 </div>
                 <div>{toggleContent()}</div>
             </div>

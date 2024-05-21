@@ -1,12 +1,13 @@
-import { ShopShop } from "./shop"
-import { CommonBanner } from "../../shared/banner"
-import ShopBanner from "/banners/shop-bg.jpg"
+import { ShopShop } from "./shop";
+import { CommonBanner } from "../../shared/banner";
+import ShopBanner from "/banners/shop-bg.jpg";
 
 export const ShopPage = () => {
   
   return (
     <main className="shop_page">
-          <ShopShop/>
+      <CommonBanner imgSrc={ShopBanner} altText={'ShopBanner'}/>
+      <ShopShop/>
     </main>
   )
 }
