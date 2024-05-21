@@ -1,11 +1,7 @@
-import { ShopItemCard } from "./shop_item_card";
-import { ShopItemAdditional } from "./shop_item_additional";
+import productData from '../../data/products-items.json';
 
 export const ShopItem = () => {
     return(
-        <div>
-            <ShopItemCard />
-            <ShopItemAdditional />
-        </div>
+        <div>Shop Item</div>
     )
 }
