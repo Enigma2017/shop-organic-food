@@ -1,13 +1,11 @@
 import Food from "/about/food.svg"
 import Mailbox from "/about/mailbox.svg"
 import Arrow from "/about/arrow.svg"
-import Fruit from "/about/fruit.png"
-
 export const AboutUsLanding = () => {
   return (
     <div className="about__container">
       <div className="about__img">
-        <img src={Fruit} alt="fruit" />
+        <img src="/about/fruit.png" alt="Photo" />
       </div>
       <div className="about__box">
         <div className="about__title">About Us</div>
@@ -43,9 +41,9 @@ export const AboutUsLanding = () => {
             </p>
           </div>
         </div>
-        <a href="/Shop" className="about__btn" type="submit">
+        <button className="about__btn" type="submit">
           Shop Now <img src={Arrow} alt="arrow" />
-        </a>
+        </button>
       </div>
     </div>
   )

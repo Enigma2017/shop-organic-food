@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     align-items: center;
-    background: var(--low-gray-color);
+    background: var(--white);
     padding: 189rem 20rem;
 
     @include desktop-small {
@@ -18,7 +18,7 @@
 
   &__img {
     max-width: 911rem;
-
+   
     img {
       width: 100%;
     }
@@ -31,7 +31,6 @@
 
   &__box {
     max-width: 702rem;
-
     @include desktop-small {
       padding: 20rem;
       margin-inline: auto;
@@ -117,8 +116,6 @@
     gap: 10rem;
     border-radius: 16rem;
     padding: 28rem 39rem;
-    max-width: 220rem;
-    justify-content: center;
     background: var(--dark-green-color);
     color: var(--white);
     font-weight: 700;
