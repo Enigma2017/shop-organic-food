@@ -190,6 +190,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width:$mobile) {
+        margin-top: 50rem;
+    }
 }
 
 .shop__item_info-btn1{
@@ -218,6 +222,10 @@
     @media screen and (max-width:$tablet-small) {
         margin: 10rem;
     }
+    @media screen and (max-width:$mobile) {
+        padding: 18rem 32rem;
+        font-size: 18rem;
+    }
 }
 
 .shop__item_info-btn2{
@@ -245,6 +253,10 @@
 
     @media screen and (max-width:$tablet-small) {
         margin: 10rem;
+    }
+    @media screen and (max-width:$mobile) {
+        padding: 18rem 32rem;
+        font-size: 18rem;
     }
 }
 
