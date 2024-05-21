@@ -2,7 +2,9 @@
 @import '../utils/vars';
 
 .teammate {
+  
     &__img {
+        cursor: pointer;
         width: 449px;
         height: 485px;
         border-radius: 15rem 15rem 0 0;
