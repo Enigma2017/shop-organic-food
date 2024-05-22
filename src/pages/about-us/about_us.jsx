@@ -2,7 +2,10 @@ import Plant from "/about/plant.svg"
 import Tractor from "/about/tractor.svg"
 import Arrow from "/about/arrow.svg"
 import Plate from "/about/Plate.png"
+
+
 export const AboutUsAboutUs = () => {
+
   return (
     <div className="about_us__container">
       <div className="about_us__img">
