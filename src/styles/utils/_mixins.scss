@@ -1,4 +1,9 @@
 // MEDIA QUERIES
+@mixin desktop-for-eco_friendly {
+    @media (max-width: $desktop-for-eco_friendly) {
+        @content;
+    }
+}
 @mixin desktop-small {
     @media (max-width: $desktop-small) {
         @content;

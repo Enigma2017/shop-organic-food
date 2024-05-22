@@ -6,20 +6,22 @@ import { NewsLanding } from "./news";
 import { OfferLanding } from "./offer";
 import { OrganicLanding } from "./organic_juice";
 import { ProductsLanding } from "./products";
-import { TestimonalLanding } from "./testimonal";
+import { TestimonialLanding } from "./testimonial";
+import { Newsletter } from "../../shared/newsletter";
 
 export const Landing = () => {
     return (
     <div className="landing">
-        <AboutUsLanding />
-        <DiscountLanding />
-        <EcoFriendlyLanding />
         <HeroLanding />
-        <NewsLanding />
-        <OfferLanding />
-        <OrganicLanding />
+        <DiscountLanding />
+        <AboutUsLanding />
         <ProductsLanding />
-        <TestimonalLanding />
+        <TestimonialLanding />
+        <OfferLanding />
+        <EcoFriendlyLanding />
+        <OrganicLanding />
+        <NewsLanding />
+        <Newsletter />
     </div>
     );
   }
