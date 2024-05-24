@@ -1,11 +1,8 @@
+/* eslint-disable react/prop-types */
 import "../styles/shared/_team-card.scss";
 
+// eslint-disable-next-line react/prop-types
 export const TeamCard = ({ item }) => {
-  const showMoreItems = () => {
-    if (item.variables.instagram == "true") {
-      console.log("lalala");
-    }
-  };
   return (
     // style={{backgroundImage: `url(${item.image.src})`}}
     <div className="teammate">
@@ -48,8 +45,8 @@ export const TeamCard = ({ item }) => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M22.3305 11.3775C22.3305 5.44001 17.3311 0.625732 11.1653 0.625732C4.99944 0.625732 0 5.44001 0 11.3775C0 16.7437 4.08229 21.1918 9.42068 21.9991V14.4863H6.58501V11.3775H9.42068V9.00872C9.42068 6.31455 11.088 4.82514 13.6381 4.82514C14.8598 4.82514 16.1378 5.03538 16.1378 5.03538V7.68155H14.7292C13.343 7.68155 12.9093 8.51001 12.9093 9.36151V11.3775H16.0057L15.5112 14.4863H12.9098V22.0001C18.2482 21.1932 22.3305 16.7452 22.3305 11.3775Z"
                     fill="#274C5B"
                   />
@@ -76,18 +73,5 @@ export const TeamCard = ({ item }) => {
         </div>
       </div>
     </div>
-    /* <div className='card' style={{backgroundImage: `url(${item.image.src})`}}>
-                <label>{item.item.type}</label>
-                <div className='card__panel'>
-                    <p className='card__name'>{item.item.name}</p>
-                    <div className='card__panel-bottom'>
-                        <div className='card__panel-price'>
-                            <span className='card__fullprice'>{item.price.fullprice}</span>
-                            <span className='card__discountprice'>{item.price.discountprice}</span>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div> */
   );
 };

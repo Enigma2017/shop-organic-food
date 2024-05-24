@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import cartStore from '../../stores/CartStore';
 import { RatingStar } from '../../shared/rating';
 import { ArrowIcon } from '../../shared/icons/arrowIcon';
 import productData from '../../data/products-items.json';
@@ -7,6 +8,11 @@ export const ShopItemCard = () => {
 
     const { id } = useParams();
     const product = productData.find((item) => item.id === id);
+    const submitForm = (e) => {
+        e.preventDefault();
+
+        cartStore.addItem(product);
+    }
 
     return(
         <div className='shop__items'>
@@ -22,7 +28,7 @@ export const ShopItemCard = () => {
                         <span className='card__discountprice'>{product.price.discountprice}</span>
                     </div>
                     <div className='shop__item-desc'>{product.info.description}</div>
-                    <form>
+                    <form onSubmit = {submitForm}>
                         <div className='shop__item-form'>
                             <div>
                                 <label>Quantity :</label>

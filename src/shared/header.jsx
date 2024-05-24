@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
+//import cartStore from "../stores/CartStore";
 import Logo from "/logo.svg";
 import Search from "/header/search.svg";
 import Cart from "/header/cart.svg";
-import Arrow from "/header/arrow.svg";
 import { useState, useEffect, useRef } from "react";
 
 export const Header = () => {
@@ -49,10 +50,10 @@ export const Header = () => {
 
   return (
     <header className="header">
-      <a href="/" className="header__logo">
+      <Link to = "/" className="header__logo">
         <img src={Logo} alt="logo" />
         <span>Organick</span>
-      </a>
+      </Link>
       <div className="header__nav">
         <div
           className={`header__backdrop ${menuActive ? "_active" : ""}`}
@@ -60,14 +61,14 @@ export const Header = () => {
         ></div>
         <ul className={`header__ul ${menuActive ? "_active" : ""}`}>
           <li className="header__li">
-            <a className="header__a" href="/">
+            <Link className="header__a" to = "/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="header__li">
-            <a className="header__a" href="/aboutus">
+            <Link className="header__a" to = "/aboutus">
               About
-            </a>
+            </Link>
           </li>
           <li
             className={`header__li ${pagesDropdownActive || pagesDropdownHovered ? "active" : ""}`}
@@ -87,42 +88,42 @@ export const Header = () => {
             {(pagesDropdownActive || pagesDropdownHovered) && (
               <ul className="dropdown">
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/service">
+                  <Link className="dropdown__a" to = "/service">
                     Service
-                  </a>
+                  </Link>
                 </li>
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/quality">
+                  <Link className="dropdown__a" to = "/quality">
                     Quality
-                  </a>
+                  </Link>
                 </li>
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/team">
+                  <Link className="dropdown__a" to = "/team">
                     Team
-                  </a>
+                  </Link>
                 </li>
                 <li className="dropdown__li">
-                  <a className="dropdown__a" href="/contact">
+                  <Link className="dropdown__a" to = "/contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             )}
           </li>
           <li className="header__li">
-            <a className="header__a" href="/shop">
+            <Link className="header__a" to = "/shop">
               Shop
-            </a>
+            </Link>
           </li>
           <li className="header__li">
-            <a className="header__a" href="/projects">
+            <Link className="header__a" to = "/projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="header__li">
-            <a className="header__a" href="/news">
+            <Link className="header__a" to = "/news">
               News
-            </a>
+            </Link>
           </li>
           <span className="icon-close" onClick={toggleMenu}>
             <svg
@@ -153,12 +154,12 @@ export const Header = () => {
             />
           </button>
         </form>
-        <a href="/" className="header-cart">
+        <Link to = "/cart" className="header-cart">
           <div className="header-cart__group">
             <img className="header-cart__icon" src={Cart} alt="Cart Icon" />
           </div>
           <span className="header-cart__text">Cart (0)</span>
-        </a>
+        </Link>
         <span className="icon-menu" onClick={toggleMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
