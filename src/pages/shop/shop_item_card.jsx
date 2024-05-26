@@ -8,10 +8,15 @@ export const ShopItemCard = () => {
 
     const { id } = useParams();
     const product = productData.find((item) => item.id === id);
+    
     const submitForm = (e) => {
         e.preventDefault();
+        const formData = new FormData(e.target);
+        const quantity = formData.get('quantity');
 
-        cartStore.addItem(product);
+        cartStore.addItem(product, quantity);
+
+        e.target.reset();
     }
 
     return(
@@ -32,7 +37,7 @@ export const ShopItemCard = () => {
                         <div className='shop__item-form'>
                             <div>
                                 <label>Quantity :</label>
-                                <input className='shop__form-input' type='number' placeholder='1' min='1' max='100' />
+                                <input className='shop__form-input' name='quantity' type='number' placeholder='1' min='1' max='100' />
                             </div>
                             <div>
                                 <button className='shop__item-button'>Add To Cart<span><ArrowIcon /></span></button>

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-//import cartStore from "../stores/CartStore";
+import { observer } from 'mobx-react-lite';
+import cartStore from "../stores/CartStore";
 import Logo from "/logo.svg";
 import Search from "/header/search.svg";
 import Cart from "/header/cart.svg";
 import { useState, useEffect, useRef } from "react";
 
-export const Header = () => {
+export const Header = observer(() => {
   const [menuActive, setMenuActive] = useState(false);
   const [pagesDropdownActive, setPagesDropdownActive] = useState(false);
   const [pagesDropdownHovered, setPagesDropdownHovered] = useState(false);
@@ -158,7 +159,7 @@ export const Header = () => {
           <div className="header-cart__group">
             <img className="header-cart__icon" src={Cart} alt="Cart Icon" />
           </div>
-          <span className="header-cart__text">Cart (0)</span>
+          <span className="header-cart__text">Cart ({cartStore.uniqueItemsAmount})</span>
         </Link>
         <span className="icon-menu" onClick={toggleMenu}>
           <svg
@@ -175,4 +176,4 @@ export const Header = () => {
       </div>
     </header>
   );
-};
+});

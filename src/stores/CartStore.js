@@ -6,16 +6,24 @@ class CartStore {
 
   constructor() {
     makeAutoObservable(this);
+    try {
+      this.items = JSON.parse(localStorage.getItem("cartItems")) || [];
+      
+    } catch (error) {
+      return this.items = [];
+    }
   }
 
-  addItem(item) {
+  addItem(item, quantity = 1) {
+    
     const existingItem = this.items.find(i => i.id === item.id);
     if (existingItem) {
-      existingItem.quantity += 1;
+      existingItem.quantity += quantity;
     } else {
-      this.items.push({ ...item, quantity: 1 });
+      this.items.push({ ...item, quantity });
     }
-    console.log(this.items);
+    localStorage.setItem("cartItems", JSON.stringify(this.items));
+
   }
 
   removeItem(itemId) {
@@ -33,12 +41,25 @@ class CartStore {
     this.items = [];
   }
 
+  getTotalPriceForItem(itemId) {
+    const item = this.items.find(i => i.id === itemId);
+    if (item) {
+      return item.price.discountprice * item.quantity;
+    } else {
+      return 0;
+    }
+  }
+
   get totalItems() {
-    return this.items.reduce((sum, item) => sum + item.quantity, 0);
+    return this.items.reduce((sum, item) => sum + Number(item.quantity), 0);
+  }
+
+  get uniqueItemsAmount() {
+    return this.items.length;
   }
 
   get totalPrice() {
-    return this.items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    return this.items.reduce((sum, item) => sum + this.getTotalPriceForItem(item.id), 0);
   }
 }
 

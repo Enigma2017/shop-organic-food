@@ -14,8 +14,8 @@
             "rating": "3"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$13.00"
+            "fullprice": 20.00,
+            "discountprice": 13.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -37,8 +37,8 @@
             "rating": "4"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$14.00"
+            "fullprice": 20.00,
+            "discountprice": 14.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -60,8 +60,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$15.00"
+            "fullprice": 20.00,
+            "discountprice": 15.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -83,8 +83,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$17.00"
+            "fullprice": 20.00,
+            "discountprice": 17.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -106,8 +106,8 @@
             "rating": "4"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$11.00"
+            "fullprice": 20.00,
+            "discountprice": 11.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -129,8 +129,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$12.00"
+            "fullprice": 20.00,
+            "discountprice": 12.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -152,8 +152,8 @@
             "rating": "3"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$17.00"
+            "fullprice": 20.00,
+            "discountprice": 17.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -175,8 +175,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$15.00"
+            "fullprice": 20.00,
+            "discountprice": 15.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -198,8 +198,8 @@
             "rating": "4"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$11.00"
+            "fullprice": 20.00,
+            "discountprice": 11.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -221,8 +221,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$12.00"
+            "fullprice": 20.00,
+            "discountprice": 12.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -244,8 +244,8 @@
             "rating": "4"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$17.00"
+            "fullprice": 20.00,
+            "discountprice": 17.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -267,8 +267,8 @@
             "rating": "4"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$15.00"
+            "fullprice": 20.00,
+            "discountprice": 15.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -290,8 +290,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$11.00"
+            "fullprice": 20.00,
+            "discountprice": 11.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -313,8 +313,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$12.00"
+            "fullprice": 20.00,
+            "discountprice": 12.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -336,8 +336,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$17.00"
+            "fullprice": 20.00,
+            "discountprice": 17.00
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
@@ -359,8 +359,8 @@
             "rating": "5"
         },
         "price": {
-            "fullprice": "$20.00",
-            "discountprice": "$17.00"
+            "fullprice": 20.00,
+            "discountprice": 17.00  
         },
         "info": {
             "description" : "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
