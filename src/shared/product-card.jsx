@@ -13,8 +13,8 @@ export const ProductCard = ({ item }) => {
                     <p className='card__name'>{item.item.name}</p>
                     <div className='card__panel-bottom'>
                         <div className='card__panel-price'>
-                            <span className='card__fullprice'>{item.price.fullprice}</span>
-                            <span className='card__discountprice'>{item.price.discountprice}</span>
+                            <span className='card__fullprice'>{`$${item.price.fullprice}`}</span>
+                            <span className='card__discountprice'>{`$${item.price.discountprice}`}</span>
                         </div>
                         <div className='card__panel-rating'>
                             <RatingStar length={5} count={item.item.rating} />

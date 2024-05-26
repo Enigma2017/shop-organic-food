@@ -29,8 +29,8 @@ export const ShopItemCard = () => {
                     <p className='shop__items-title'>{product.item.name}</p>
                     <p><RatingStar length={5} count={product.item.rating} /></p>
                     <div className='card__panel-price'>
-                        <span className='card__fullprice'>{product.price.fullprice}</span>
-                        <span className='card__discountprice'>{product.price.discountprice}</span>
+                        <span className='card__fullprice'>{`$${product.price.fullprice}`}</span>
+                        <span className='card__discountprice'>{`$${product.price.discountprice}`}</span>
                     </div>
                     <div className='shop__item-desc'>{product.info.description}</div>
                     <form onSubmit = {submitForm}>
