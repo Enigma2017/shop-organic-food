@@ -1,4 +1,3 @@
-// src/stores/CartStore.js
 import { makeAutoObservable } from "mobx";
 
 class CartStore {
@@ -8,22 +7,19 @@ class CartStore {
     makeAutoObservable(this);
     try {
       this.items = JSON.parse(localStorage.getItem("cartItems")) || [];
-      
     } catch (error) {
-      return this.items = [];
+      this.items = [];
     }
   }
 
   addItem(item, quantity = 1) {
-    
     const existingItem = this.items.find(i => i.id === item.id);
     if (existingItem) {
       existingItem.quantity += quantity;
     } else {
       this.items.push({ ...item, quantity });
     }
-    localStorage.setItem("cartItems", JSON.stringify(this.items));
-
+    this.saveCart();
   }
 
   removeItem(itemId) {
@@ -34,11 +30,23 @@ class CartStore {
       } else {
         this.items.splice(itemIndex, 1);
       }
+      this.saveCart(); // Сохраняем изменения после удаления
+    }
+  }
+
+  plusItem(itemId) {
+    const itemIndex = this.items.findIndex(i => i.id === itemId);
+    if (itemIndex !== -1) {
+      console.log(`Increasing quantity for item: ${itemId}`);
+      this.items[itemIndex].quantity += 1;
+      console.log(`New quantity: ${this.items[itemIndex].quantity}`);
+      this.saveCart();
     }
   }
 
   clearCart() {
     this.items = [];
+    this.saveCart(); // Сохраняем изменения после очистки корзины
   }
 
   getTotalPriceForItem(itemId) {
@@ -61,7 +69,12 @@ class CartStore {
   get totalPrice() {
     return this.items.reduce((sum, item) => sum + this.getTotalPriceForItem(item.id), 0);
   }
+
+  saveCart() {
+    localStorage.setItem("cartItems", JSON.stringify(this.items));
+  }
 }
 
 const cartStore = new CartStore();
 export default cartStore;
+
