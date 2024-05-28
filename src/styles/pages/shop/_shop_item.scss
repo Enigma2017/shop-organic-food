@@ -142,6 +142,7 @@
 }
 
 .shop__item-button{
+    position: relative;
     background-color: var(--dark-green-color);
     outline: none;
     border: none;
@@ -156,11 +157,11 @@
     -moz-border-radius: 16rem;
     -ms-border-radius: 16rem;
     -o-border-radius: 16rem;
-    transition: ease-in-out 1s;
-    -webkit-transition: ease-in-out 1s;
-    -moz-transition: ease-in-out 1s;
-    -ms-transition: ease-in-out 1s;
-    -o-transition: ease-in-out 1s;
+    transition: ease-in-out 0.7s;
+    -webkit-transition: ease-in-out 0.7s;
+    -moz-transition: ease-in-out 0.7s;
+    -ms-transition: ease-in-out 0.7s;
+    -o-transition: ease-in-out 0.7s;
 
     &:hover{
         background-color: var(--white);
@@ -364,4 +365,30 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20rem;
+}
+
+.plus-animation {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #28a745;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.plus-animation.animate {
+    animation: flyUp 1s ease forwards;
+}
+
+@keyframes flyUp {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50px);
+    }
 }
