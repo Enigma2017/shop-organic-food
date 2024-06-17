@@ -1,6 +1,6 @@
 .cart-container{
     max-width: 1400rem;
-    margin: 0 auto;
+    margin: 0 auto 78rem;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -13,9 +13,9 @@
         margin: 70rem 0 46rem;
         font-size: 66rem;
 
-        /*@media screen and (max-width:$mobile){
-            margin-bottom: 50rem;
-        }*/
+        @media screen and (max-width:$mobile){
+            font-size: 60rem;
+        }
     }
 
     .cart-item__calc{
@@ -27,7 +27,7 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 46rem;
-        margin-bottom: 54rem;
+        margin-bottom: 24rem;
     }
 
     .cart-item__item{
@@ -149,4 +149,9 @@
     font-size: 28rem;
     font-family: var(--second-family);
     margin: 28rem 0 64rem;
+    align-items: center;
+
+    @media screen and (max-width:$mobile){
+            margin-bottom: 0;
+        }
 }
